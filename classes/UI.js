@@ -11,6 +11,7 @@ class UI {
         // let description = 'rain';
 
         this.description.innerHTML = description;
+        // this.description.innerHTML = 'snow';
         this.temp.innerHTML = celsius + '&deg;';
         this.city.innerHTML = data.name;
 
